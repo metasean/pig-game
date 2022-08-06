@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Pig-game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pig Game</h1>
+    <span id="currentPlayer"></span>
+    <div class="container">
+        <div id="player-one" class="player-container">
+            <h2>Player One</h2>
+            <p id="player-one-total" class="score">score</p>
+            <p id="player-one-current" class="current">current</p>
+        </div>
+        <div class="button-container">
+            <button onclick="reset()">Start Game</button>
+            <p class="die">die</p>
+            <button onclick="rollDie()">Roll Dice</button>
+            <button onclick="hold()">Hold</button>
+        </div>
+        <div id="player-two" class="player-container">
+            <h2>Player Two</h2>
+            <p id="player-two-total" class="score">score</p>
+            <p id="player-two-current" class="current">current</p>
+        </div>
+    </div>
+</body>
+</html>

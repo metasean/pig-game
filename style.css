@@ -1,0 +1,22 @@
+h1 {
+    color: rebeccapurple;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}
+
+.player-container, .button-container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 1 25;
+    border: 1px solid blue;
+    padding: 1em;
+}
+
+#player-two-current {
+    background-color:honeydew;
+}
